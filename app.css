@@ -1780,6 +1780,21 @@ body {
 .app-root {
   background: #000;
 }
+.title-version {
+  position: fixed;
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 10px);
+  right: max(14px, calc(env(safe-area-inset-right, 0px) + 14px));
+  opacity: 0.75;
+}
+.title-new-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 6px;
+  border-radius: 9999px;
+  background: #b5523f;
+  vertical-align: 0.15em;
+}
 @keyframes eq {
   0%, 100% {
     transform: scaleY(0.4);
